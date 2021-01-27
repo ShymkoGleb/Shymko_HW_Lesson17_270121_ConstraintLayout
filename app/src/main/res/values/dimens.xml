@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen  name="smallTextButton">15dp</dimen>
+    <dimen name="middleTextButton">20dp</dimen>
+    <dimen name="bigTextButton">30dp</dimen>
+    <dimen  name="superSmallMargin">5dp</dimen>
+    <dimen  name="smallMargin">15dp</dimen>
+    <dimen name="middleMargin">20dp</dimen>
+    <dimen name="bigMargin">30dp</dimen>
+    <dimen name="superBigMargin">80dp</dimen>
+</resources>

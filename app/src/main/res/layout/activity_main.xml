@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btn1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="1.1"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/btn2.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="2.1"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+
+    <TextView
+        android:id="@+id/btn2.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="2.2"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/guideline1" />
+
+    <TextView
+        android:id="@+id/btn3.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="3.1"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <TextView
+        android:id="@+id/btn3.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="3.2"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <TextView
+        android:id="@+id/btn3.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="3.3"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <TextView
+        android:id="@+id/btn3.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middleMargin"
+        android:text="3.4"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <TextView
+        android:id="@+id/btn4.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.1"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.2"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline7"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.3"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline8"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.4"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline8"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.5"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline9"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.6"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline9"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.7"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+    <TextView
+        android:id="@+id/btn4.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="4.8"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline10"
+        app:layout_constraintTop_toBottomOf="@id/guideline11" />
+
+
+    <TextView
+        android:id="@+id/btn5.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="5.1"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline12" />
+
+    <TextView
+        android:id="@+id/btn5.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="5.2"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline7"
+        app:layout_constraintStart_toStartOf="@id/guideline13"
+        app:layout_constraintTop_toBottomOf="@id/guideline12" />
+
+    <TextView
+        android:id="@+id/btn5.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="5.3"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline14"
+        app:layout_constraintStart_toStartOf="@id/guideline7"
+        app:layout_constraintTop_toBottomOf="@id/guideline12" />
+
+    <TextView
+        android:id="@+id/btn5.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="5.4"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline14"
+        app:layout_constraintTop_toBottomOf="@id/guideline12" />
+
+    <TextView
+        android:id="@+id/btn5.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/bigMargin"
+        android:rotation="90"
+        android:text="5.5"
+        android:textSize="@dimen/middleTextButton"
+        app:layout_constraintEnd_toEndOf="@id/guideline15"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toBottomOf="@id/guideline12" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="47dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="365dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="94dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="185dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="548dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="458dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="90dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="276dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="456dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="640dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="141dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="198dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="43dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="137dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="228dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
